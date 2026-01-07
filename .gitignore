@@ -1,1 +1,16 @@
-*.coverage, venv
+# Fichiers de couverture de test
+.coverage
+
+# Fichiers système macOS
+.DS_Store
+
+# Environnements virtuels Python
+venv/
+env/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+
+# Optionnel : fichiers pycache générés dans les dossiers __pycache__ 
+**/__pycache__/
