@@ -5,3 +5,7 @@ Pour installer les dépendances créer un espace virtuel avec python -m venv ven
 Une fois activer installer les dépendances via pip install -r requirements.txt..
 Pour éxecuter les tests utiliser cette commande python -m coverage run -m unittest tests/test_calculator.py, et voir le rapport de test avec coverage coverage report -m.
 
+## Fonctionnalités
+- Addition
+- Multiplication
+
